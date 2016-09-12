@@ -1,0 +1,44 @@
+Build started 2/22/2016 10:00:46 PM.
+Project "U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj" on node 1 (build target(s)).
+PrepareForBuild:
+  Creating directory "x64\Release\PnPScanValves.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\PnPScanValves.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\MSVS14\VC\bin\amd64\CL.exe /c /I..\..\..\inc /I"..\..\..\inc-x64" /Zi /nologo /W1 /WX- /O2 /D _WIN64 /D _WINDOWS /D NDEBUG /D _ACRXAPP /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Release\PnPScanValves.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:queue stdafx.cpp
+  stdafx.cpp
+  C:\MSVS14\VC\bin\amd64\CL.exe /c /I..\..\..\inc /I"..\..\..\inc-x64" /Zi /nologo /W1 /WX- /O2 /D _WIN64 /D _WINDOWS /D NDEBUG /D _ACRXAPP /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:queue PnPScanValves.cpp
+  PnPScanValves.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.dll) does not match the Linker's OutputFile property value (U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile). [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1190,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile). [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+Link:
+  C:\MSVS14\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.arx" /NOLOGO /LIBPATH:"..\..\..\lib-x64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"PnPScanValves.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.lib" /MACHINE:X64 /DLL x64\Release\PnPScanValves.obj
+  x64\Release\stdafx.obj
+PnPScanValves.obj : warning LNK4197: export 'acrxGetApiVersion' specified multiple times; using first specification [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+stdafx.obj : warning LNK4197: export 'acrxGetApiVersion' specified multiple times; using first specification [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+     Creating library U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.lib and object U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.exp
+rxapi.lib(libinit.obj) : warning LNK4099: PDB 'rxapi.pdb' was not found with 'rxapi.lib(libinit.obj)' or at 'U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\rxapi.pdb'; linking object as if no debug info [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+  PnPScanValves.vcxproj -> U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.dll
+FinalizeBuildStatus:
+  Deleting file "x64\Release\PnPScanValves.tlog\unsuccessfulbuild".
+  Touching "x64\Release\PnPScanValves.tlog\PnPScanValves.lastbuildstate".
+Done Building Project "U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj" (build target(s)).
+
+Build succeeded.
+
+"U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj" (build target) (1) ->
+(DoLinkOutputFilesMatch target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.dll) does not match the Linker's OutputFile property value (U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\PnPScanValves.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile). [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1190,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile). [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+
+
+"U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj" (build target) (1) ->
+(Link target) -> 
+  PnPScanValves.obj : warning LNK4197: export 'acrxGetApiVersion' specified multiple times; using first specification [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+  stdafx.obj : warning LNK4197: export 'acrxGetApiVersion' specified multiple times; using first specification [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+  rxapi.lib(libinit.obj) : warning LNK4099: PDB 'rxapi.pdb' was not found with 'rxapi.lib(libinit.obj)' or at 'U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\x64\Release\rxapi.pdb'; linking object as if no debug info [U:\Develop\RunRoot\Release64\PlantSDK\samples\PnID\PnPScanValves\PnPScanValves.vcxproj]
+
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:12.57

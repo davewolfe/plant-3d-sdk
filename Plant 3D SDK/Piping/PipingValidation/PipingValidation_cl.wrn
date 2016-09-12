@@ -1,0 +1,8 @@
+1>------ Build started: Project: PipingValidation, Configuration: Release x64 ------
+
+Package 'Code Analysis Package' failed to load.
+1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1819,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "PnP3dObjectsMgd", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1819,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "PnPDataLinks", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+1>  PipingValidation -> U:\Develop\RunRoot\Release64\PlantSDK\samples\Piping\PipingValidation\bin\x64\Release\PipingValidation.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

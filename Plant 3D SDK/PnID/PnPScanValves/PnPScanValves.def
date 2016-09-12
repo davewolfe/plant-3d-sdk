@@ -1,0 +1,5 @@
+LIBRARY	"PnPScanValves.arx"
+
+EXPORTS
+	acrxEntryPoint PRIVATE
+	acrxGetApiVersion PRIVATE 
